@@ -16,7 +16,7 @@ def read_inputs() -> dict[str, bytes]:
 
 def main() -> int:
     raw_inputs = read_inputs()
-    inputs = {k: v.decode('ascii') for k, v in raw_inputs.items()}
+    inputs = {k: v.decode('ascii').rstrip('\n') for k, v in raw_inputs.items()}
     pprint(inputs)
 
     return 0
