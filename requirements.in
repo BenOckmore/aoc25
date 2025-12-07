@@ -5,4 +5,5 @@ requests~=2.32
 ruff~=0.14
 scipy-stubs~=1.16
 scipy~=1.16
+types-networkx~=3.6
 types-requests~=2.32
