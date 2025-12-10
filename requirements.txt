@@ -17,7 +17,16 @@ networkx==3.6
 numpy==2.3.5
     # via
     #   -r requirements.in
+    #   numpy-typing-compat
+    #   optype
     #   scipy
+    #   shapely
+    #   types-networkx
+    #   types-shapely
+numpy-typing-compat==20251206.2.3
+    # via optype
+optype==0.15.0
+    # via scipy-stubs
 pathspec==0.12.1
     # via mypy
 requests==2.32.5
@@ -26,10 +35,20 @@ ruff==0.14.7
     # via -r requirements.in
 scipy==1.16.3
     # via -r requirements.in
+scipy-stubs==1.16.3.3
+    # via -r requirements.in
+shapely==2.1.2
+    # via -r requirements.in
+types-networkx==3.6.1.20251210
+    # via -r requirements.in
 types-requests==2.32.4.20250913
     # via -r requirements.in
+types-shapely==2.1.0.20250917
+    # via -r requirements.in
 typing-extensions==4.15.0
-    # via mypy
+    # via
+    #   mypy
+    #   optype
 urllib3==2.5.0
     # via
     #   requests
