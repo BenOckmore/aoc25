@@ -216,5 +216,4 @@ __marimo__/
 .streamlit/secrets.toml
 
 # modifications
-sample.txt
-puzzle.txt
+src/day*/*.txt
