@@ -217,3 +217,7 @@ __marimo__/
 
 # modifications
 src/day*/*.txt
+
+# Rust
+/target
+
